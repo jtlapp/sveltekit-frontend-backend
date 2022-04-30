@@ -6,13 +6,13 @@ NOTICE: This package is experimental prior to NPM release 1.0.0 and will continu
 
 ## Notes
 
-Packages are in the `pkg/` folder, each with its own subfolder. To add a package, just add another subfolder and initialize it with `yarn init` or `pnpm init`. To create another svelte-kit installation, run `npm init svelte your-package-folder` from `pkg/`.
+Implemented with yarn workspaces. List each package in the `workspaces` entry of `packages.json`.
 
-Run `pnpm install` from the root package to update dependencies in all packages.
+Run `yarn` from the root package to update dependencies in all packages.
 
 # Details
 
-I removed the following, may add later if it's a problem...
+I've temporarily removed the following, as it might not be needed...
 
 > I appended the following to `frontend/tsconfig.json` to pull in shared TypeScript:
 
