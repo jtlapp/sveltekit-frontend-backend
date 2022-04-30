@@ -6,6 +6,8 @@ NOTICE: This package is experimental prior to NPM release 1.0.0 and will continu
 
 ## Notes
 
+PNPM links are not preserved and have to be reestablished. For this demo, `cd pkg/frontend` and `pnpm link ../shared`.
+
 Packages are in the `pkg/` folder, each with its own subfolder. To add a package, just add another subfolder and initialize it with `yarn init` or `pnpm init`. To create another svelte-kit installation, run `npm init svelte your-package-folder` from `pkg/`.
 
 Run `pnpm install` from the root package to update dependencies in all packages.
