@@ -1,5 +1,4 @@
 <script lang="ts">
-	//import { SITE_NAME } from '../../../shared/constants';
 	import { SITE_NAME } from '@sveltekit-frontend-backend/shared/constants';
 </script>
 
